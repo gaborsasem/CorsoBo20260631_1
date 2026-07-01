@@ -1,0 +1,312 @@
+Name: Tags
+Id: g=a41daa0dcf799c86f90357afc6750916
+Type: FolderType
+Children:
+- Name: G_sLam_Alms
+  Type: TagStructure
+  DataType: Structure
+  Value: 
+   {
+    "Type": 22,
+    "Body": {
+     "TypeId": {
+      "IdType": 0,
+      "Id": 0,
+      "Namespace": -1
+     },
+     "Body":    {}
+    }
+   }
+  Children:
+  - Name: axS
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axS"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axS_Ps
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axS_Ps"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axS_Ack
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axS_Ack"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axA
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [512]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axA"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axA_Ps
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [512]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axA_Ps"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axA_Ack
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [512]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axA_Ack"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axW
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axW"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axW_Ps
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axW_Ps"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: axW_Ack
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    ValueRank: OneDimension
+    ArrayDimensions: [64]
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.axW_Ack"
+    - Name: StartArrayIndex
+      Type: BaseDataVariableType
+      DataType: UInt32
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [0]
+  - Name: xNewAlm
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xNewAlm"
+  - Name: xNewWarning
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xNewWarning"
+  - Name: uiScanIndex
+    Type: OmronEthernetIPTag
+    DataType: UInt16
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.uiScanIndex"
+    - Name: Encoding
+      Type: BaseDataVariableType
+      DataType: ns=27;Encoding
+      Value: 3
+  - Name: xAlmInProggress
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xAlmInProggress"
+  - Name: xWarnInProggress
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xWarnInProggress"
+  - Name: xAlmNotAck
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xAlmNotAck"
+  - Name: xReq_ShortSiren
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xReq_ShortSiren"
+  - Name: xReq_LongSiren
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xReq_LongSiren"
+  - Name: xReq_AlmWithoutSiren
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xReq_AlmWithoutSiren"
+  - Name: xMem_LongSiren
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xMem_LongSiren"
+  - Name: xMem_ShortSiren
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xMem_ShortSiren"
+  - Name: xImi_PB_AlmClear
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xImi_PB_AlmClear"
+  - Name: xImi_PB_SirenMuting
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xImi_PB_SirenMuting"
+  - Name: xCmd_AlmClearing
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xCmd_AlmClearing"
+  - Name: xCmd_ManEmcyClearing
+    Type: OmronEthernetIPTag
+    DataType: Boolean
+    Children:
+    - Name: SymbolName
+      Type: BaseDataVariableType
+      DataType: String
+      Value: "G_sLam_Alms.xCmd_ManEmcyClearing"
+- Name: G_SyncroON
+  Type: OmronEthernetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "G_SyncroON"
+- Name: G_Sync_xMAX
+  Type: OmronEthernetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "G_Sync_xMAX"
+- Name: G_Sync_xMIN
+  Type: OmronEthernetIPTag
+  DataType: Boolean
+  Children:
+  - Name: SymbolName
+    Type: BaseDataVariableType
+    DataType: String
+    Value: "G_Sync_xMIN"

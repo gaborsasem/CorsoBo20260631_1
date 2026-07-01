@@ -1,0 +1,4 @@
+Name: OMRONEtherNet_IPDriver1
+Type: OmronEthernetIPDriver
+Children:
+- File: OMRONEtherNet_IPStation1/OMRONEtherNet_IPStation1.yaml

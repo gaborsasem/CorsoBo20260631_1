@@ -1,0 +1,12 @@
+Name: logger
+Type: FolderType
+Children:
+- Name: VarToLog1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarToLog2
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: VarToLog3
+  Type: BaseDataVariableType
+  DataType: Int32

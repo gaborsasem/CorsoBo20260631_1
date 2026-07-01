@@ -1,0 +1,18 @@
+Name: TagImporter
+Type: OmronEthernetIPTagImporter
+OwnerId: ns=2;g=04af7cae5f13e4e9523ab79e79824011
+Children:
+- Name: IgnoredPLCItems
+  Type: BaseDataVariableType
+  DataType: BaseDataType
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: IgnoredHMIItems
+  Type: BaseDataVariableType
+  DataType: NodeId
+  ValueRank: OneDimension
+  ArrayDimensions: [0]
+- Name: FilePath
+  Type: BaseDataVariableType
+  DataType: AbsoluteResourceUri
+  Value: "file:///C:/Users/GOrsani/Downloads/OmronEthernetip.txt"

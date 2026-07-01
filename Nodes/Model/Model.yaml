@@ -1,0 +1,26 @@
+Name: Model
+Id: g=b39ba37eac5dedadd27d59db7dc5e109
+Type: ModelCategoryFolder
+Children:
+- Name: Variable1
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: Variable1Transitioned
+  Id: g=7c5618752c3c75dbe0c523ab19331ed1
+  Type: VariableTransitionEventDispatcher
+  Children:
+  - Name: Value
+    Type: BaseVariableType
+    DataType: Double
+    Value: 7.0
+  - Name: Transition
+    Type: BaseVariableType
+    DataType: VariableTransition
+  - Name: VariableNodePath
+    Type: BaseVariableType
+    DataType: NodePath
+    Value: "../Variable1"
+- File: AlarmVars/AlarmVars.yaml
+- File: PLCModel/PLCModel.yaml
+- File: logger/logger.yaml
+- File: RecipeVar/RecipeVar.yaml

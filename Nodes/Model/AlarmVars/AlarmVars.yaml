@@ -1,0 +1,20 @@
+Name: AlarmVars
+Id: g=5c80305ff0eb357fba04c366d21e3229
+Type: FolderType
+Children:
+- Name: AlarmVar1
+  Id: g=9b322a53f253e12036c3140075f4c9ed
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: AlarmVar2
+  Id: g=85ce9383501f13c4fda442a0a23f8b99
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: AlarmVar3
+  Id: g=949599ff1960114381c3de267b72acfa
+  Type: BaseDataVariableType
+  DataType: Int32
+- Name: AlarmVar4
+  Id: g=6fccc5fa97c1eb8413eb37daa6661e49
+  Type: BaseDataVariableType
+  DataType: Int32

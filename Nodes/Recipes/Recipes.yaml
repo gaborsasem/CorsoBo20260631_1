@@ -1,0 +1,97 @@
+Name: Recipes
+Type: RecipesCategoryFolder
+Children:
+- Name: LegacyRecipeSchema1
+  Id: g=bbdea3f0d6452441117b52d41308b3ce
+  Type: RecipeSchema
+  Children:
+  - Name: Root
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeVar
+      Type: BaseObjectType
+      Children:
+      - Name: RecipeVar1
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar2
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar3
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar4
+        Type: BaseDataVariableType
+        DataType: Int32
+  - Class: Reference
+    Target: ns=33;i=27
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=33
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=31
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=44
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=35
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=37
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=76
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=53
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=62
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=55
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=58
+    Direction: Forward
+  - Class: Reference
+    Target: ns=33;i=60
+    Direction: Forward
+  - Name: Store
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/CorsoBo20260631_1/DataStores/EmbeddedDatabase1"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+      Value: "/Types/ObjectTypes/BaseObjectType/Store"
+  - Name: TargetNode
+    Type: NodePointer
+    DataType: NodeId
+    Value: "/Objects/CorsoBo20260631_1/Model"
+    Children:
+    - Name: Kind
+      Type: PropertyType
+      DataType: NodeId
+  - Name: EditModel
+    Id: g=bc98bc271f9669b68f77eb3bda04cafd
+    Type: BaseObjectType
+    Children:
+    - Name: RecipeVar
+      Type: BaseObjectType
+      Children:
+      - Name: RecipeVar1
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar2
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar3
+        Type: BaseDataVariableType
+        DataType: Int32
+      - Name: RecipeVar4
+        Type: BaseDataVariableType
+        DataType: Int32
