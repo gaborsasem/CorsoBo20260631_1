@@ -1025,12 +1025,12 @@ Children:
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 832.0
+      Value: 920.0
     - Name: TopMargin
       Type: BaseVariableType
       DataType: Size
       ModellingRule: Optional
-      Value: 8.0
+      Value: 120.0
     - Name: BorderColor
       Type: BaseDataVariableType
       DataType: Color
