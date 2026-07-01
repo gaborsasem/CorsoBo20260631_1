@@ -2966,6 +2966,7 @@ Children:
         ModellingRule: Optional
         Value: 10.0
     - Name: Scroll
+      Id: g=9dec15e772be78cc8d4c0cea221a33ee
       Type: ScrollView
       Children:
       - Name: Width
@@ -3019,6 +3020,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: TrendRangesLogic
       Type: NetLogic
     - Name: Label2
@@ -3283,6 +3287,7 @@ Children:
       - Class: Method
         Name: AddPen
     - Name: ScrollView1
+      Id: g=1b6baddc88b93ea86207bcb9ff987e3d
       Type: ScrollView
       Children:
       - Name: Width
@@ -3338,6 +3343,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: Label1
       Type: Label
       Children:

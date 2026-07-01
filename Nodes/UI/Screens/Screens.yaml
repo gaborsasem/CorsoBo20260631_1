@@ -634,7 +634,7 @@ Children:
         Value: 40.0
       - Name: FontSize
         Type: BaseDataVariableType
-        DataType: Float
+        DataType: Size
         ModellingRule: Optional
         Value: 25.0
       - Name: EventHandler1
@@ -741,7 +741,7 @@ Children:
         Value: 40.0
       - Name: FontSize
         Type: BaseDataVariableType
-        DataType: Float
+        DataType: Size
         ModellingRule: Optional
         Value: 25.0
       - Name: EventHandler1
@@ -5975,6 +5975,7 @@ Children:
             Type: PropertyType
             DataType: UInt16
     - Name: ScrollView
+      Id: g=342740572ee631bf2fd93ab65d90680e
       Type: ScrollView
       Children:
       - Name: Width
@@ -6425,6 +6426,9 @@ Children:
         DataType: ScrollAxesEnabledEnum
         ModellingRule: Optional
         Value: 2
+      - Class: Reference
+        Target: ns=5;i=1394
+        Direction: Forward
     - Name: RecipeSchema
       Type: NodePointer
       DataType: NodeId
